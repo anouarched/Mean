@@ -39,7 +39,7 @@ router.post('/login', function(req, res, next) {
         });
       }
       res.status(200).json({
-        status: 'Login successful! hello Mr. ' + req.user.username
+        status: 'Login successful!
       });
     });
   })(req, res, next);
