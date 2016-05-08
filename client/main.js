@@ -28,9 +28,10 @@ myApp.config(function ($routeProvider) {
       template: '<h1>This is page two!</h1>',
       access: {restricted: false}
     })
-    .otherwise({
-      redirectTo: '/'
+  /*  .otherwise({
+     redirectTo: '/'
     });
+    */
 });
 
 myApp.run(function ($rootScope, $location, $route, AuthService) {
