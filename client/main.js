@@ -18,7 +18,7 @@ myApp.config(function ($routeProvider) {
     .when('/register', {
       templateUrl: 'partials/register.html',
       controller: 'registerController',
-      access: {restricted: false}
+      access: {restricted: true}
     })
     .when('/one', {
       template: '<h1>This is page one!</h1>',
