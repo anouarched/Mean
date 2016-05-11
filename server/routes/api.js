@@ -16,7 +16,7 @@ router.post('/register', function(req, res) {
     }
     passport.authenticate('local')(req, res, function () {
       return res.status(200).json({
-        status: 'Registration successful! Welcome with us Mr.'  + req.user.username
+        status: 'Registration successful! Welcome with us' 
       });
     });
   });
