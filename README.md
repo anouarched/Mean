@@ -7,10 +7,10 @@ Rapport du projet de fin d’études : Application Android « SmartCar »
 
 
 
-Réalisé par :                                                             Encadré par :
+Réalisé par :                                                             
  	  Naoufal Hatim 
-                                                                                              	Pr. Ismail Berrada		
+                                                                                         	
      	Chedadi Anouar                                  
-                                  
-
+                                                        Encadré par :
+                                                                	Pr. Ismail Berrada	
 
